@@ -20,14 +20,14 @@
             <img src="./image/lista-telefonica (1).png" alt="icone telefone">
             <h1>Agenda de Contatos</h1>
         </header>
-        <form id="" action="">
-            <input type="text" placeholder="Nome do contato" required>
-            <div class="container_number">
-                <input class="container_number_ddd" type="tel" placeholder="DDD" required min="2" max="2">
-                <input class="container_number_contato" type="tel" placeholder="Número" required min="8" max="14">
+        <form id="form_contato" action="">
+            <input id="nome" type="text" placeholder="Nome do contato" required>
+            <div id="container_number">
+                <input id="container_number_ddd" type="tel" placeholder="DDD" required min="2" maxlength="2">
+                <input id="container_number_contato" type="tel" placeholder="Número" required maxlength="9">
             </div>
-            <input type="email" placeholder="E-mail" required>
-            <button type="submit">Cadastrar</button>
+            <input id="email" type="email" placeholder="E-mail" required>
+            <button id="cadastro" type="submit">Cadastrar</button>
         </form>
         <table>
             <thead>
@@ -38,11 +38,6 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>mateus lino</td>
-                    <td>73 9915058</td>
-                    <td>mateuslino@gmail.com</td>
-                </tr>
             </tbody>
         </table>
     </div>

@@ -60,23 +60,23 @@ input {
     border: none;
 }
 
-.container_number {
+#container_number {
     display: flex;
 }
 
-.container_number_ddd {
+#container_number_ddd {
     width: 50px;
 }
 
-.container_number_contato {
+#container_number_contato {
     max-width: 270px;
 }
 
 form button {
     width: 120px;
-    height: 30px;
     border-radius: 5px;
     margin-bottom: 20px;
+    padding: 10px;
     cursor: pointer;
     background-color: #009432;
     color: #fff;
@@ -85,21 +85,18 @@ form button {
 }
 
 table {
-    display: flex;
-    flex-direction: column;
     background-color: #fff;
+    border-radius: 5px;
     height: 80px;
-    width: 550px;
+    max-width: 580px;
+    width: 100%;
 }
 
+thead th {
+    font-size: 18px;
+}
 
-table thead tr,
 tbody tr {
-    display: flex;
-    justify-content: space-around;
-}
-
-thead th,
-tbody td {
+    font-size: 14px;
     text-align: center;
 }
